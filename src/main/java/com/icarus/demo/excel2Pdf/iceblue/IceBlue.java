@@ -8,10 +8,9 @@ public class IceBlue {
 
 
     public static void main(String[] args) {
-        // convert2Pdf1();
-        // convert2Pdf2();
-        convert2Html();
-
+        //convert2Pdf1();
+        convert2Pdf2();
+        //convert2Html();
     }
 
     public static void convert2Pdf1(){
@@ -28,9 +27,10 @@ public class IceBlue {
     }
 
     public static void convert2Pdf2() {
+        String targetExcelPath = "C://hong//output//Certificate_logo_result.xlsx";
         //创建一个Workbook实例并加载Excel文件
         Workbook workbook = new Workbook();
-        workbook.loadFromFile("C://hong//output//test2.xlsx");
+        workbook.loadFromFile(targetExcelPath);
 
         //设置转换后PDF的页面宽度适应工作表的内容宽度
         workbook.getConverterSetting().setSheetFitToWidth(true);
@@ -39,7 +39,7 @@ public class IceBlue {
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         //转换为PDF并将生成的文档保存到指定路径
-        worksheet.saveToPdf("C://hong//output//WorksheetToPdf2.pdf");
+        worksheet.saveToPdf("C://hong//output//Certificate_logo_result_spire.pdf");
     }
 
     public static void convert2Html() {
