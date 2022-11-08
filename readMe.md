@@ -1,8 +1,9 @@
 easyExcel fill data
 
-use aspose and spire(e-icablue) to convert excel to pdf
+Demo for Aspose and Spire(e-icablue) to convert excel to PDF
 
-please use spire
+Demo for iText 7 and Velocity to convert HTML to PDF
+
 ### Aspose
 https://www.aspose.com/
 demo
@@ -11,7 +12,7 @@ https://github.com/aspose-cells/Aspose.Cells-for-.NET
 ### Spire
 https://www.e-iceblue.cn/Introduce/Free-Spire-Office-JAVA.html
 
-#### Spir Maven
-https://www.e-iceblue.cn/licensing/install-spirepdf-for-java-from-maven-repository.html
-#### document
-https://www.e-iceblue.cn/xls_java_watermark/java-add-excel-text-and-image-watermark.html
+###  iText 7 and Velocity
+https://kb.itextpdf.com/home
+
+https://wizardforcel.gitbooks.io/velocity-doc/content/
